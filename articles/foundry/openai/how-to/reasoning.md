@@ -1374,7 +1374,7 @@ Input and output limits share the available context budget and aren't additive. 
 | Responses API | ✅ | ✅ | ✅ |
 | Streaming | ✅ | ✅ | ✅ |
 | Functions/tools | ✅ | ✅ | ✅ |
-| **[Reasoning effort](#reasoning-effort)** | ✅ (including `none`) | ✅ (including `none`) | ✅ (including `none`) |
+| **[Reasoning effort](#reasoning-effort)** | ✅ | ✅ (including `none`) | ✅ (including `none`) |
 | Verbosity | ✅ | ✅ | ✅ |
 | `logprobs` | ✅ | ✅ | ✅ |
 | `temperature` | ✅ | ✅ | ✅ |
@@ -1450,6 +1450,7 @@ Input and output limits share the available context budget and aren't additive. 
 ---
 
 > [!NOTE]
+> - GPT-6-Astra doesn't support the `none` reasoning effort level.
 > - To avoid timeouts [background mode](./responses.md#background-tasks) is recommended for `o3-pro`.
 > - `o3-pro` does not currently support image generation.
 

@@ -30,7 +30,7 @@ Connections let you authenticate to Microsoft and other resources within your Fo
 
 * If you don't have one, [create a project](../how-to/create-projects.md).
 * Make sure you can open your project in Microsoft Foundry.
-* Make sure you have permissions to add connections to the project or resource. Adding connections requires the **Foundry User**, **Foundry Owner**, or Azure **Contributor** role (or higher). For details, see [Role-based access control](../concepts/rbac-foundry.md).
+* Make sure you have permissions to add connections to the project or resource. Adding connections requires the **Foundry Owner**, **Foundry Account Owner** or Azure **Contributor** role (or higher). For details, see [Role-based access control](../concepts/rbac-foundry.md).
 
   [!INCLUDE [role-rename-note](../includes/role-rename-note.md)]
 
